@@ -1,14 +1,15 @@
-{   "name" : "tt_logger",
-    "version" : "0.0.1",
-    "description" : "Tigertext logger",
-    "author": "George Ye <gye@tigertext.com>",
-    "main": "./lib/tt_logger.js",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/georgeye/tt_logger.git"
-    },
-    "dependencies": {
-        "winston": "0.5.x",
-        "protobuf": "0.8.6"
-   }
+{
+  "name": "tt_logger",
+  "version": "0.0.1",
+  "description": "Tigertext logger",
+  "author": "George Ye <gye@tigertext.com>",
+  "main": "./lib/tt_logger.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/georgeye/tt_logger.git"
+  },
+  "dependencies": {
+    "node-protobuf": "^1.2.10",
+    "winston": "1.1.x"
+  }
 }
